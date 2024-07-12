@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(0, 118, 75);
+}
+.title{
+    font-size: xx-large;
+    font-weight: bolder;
+    color: yellow;
+    background-color: rgb(0, 118, 75);
+    width: 100%;
+    padding: 10px;
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+}
+.home{
+    background-color: yellowgreen;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    font-size: larger;
+    color: white;
+}
+.cr1{
+    background-color: yellowgreen;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+    font-size: large;
+    color: white;
+}
+.sidebar{
+    padding: 20px;
+}
+.p1{
+    font-weight: bold;
+    width: 30vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.pimg{
+    height: 400px;
+    width: 400px;
+    border-radius: 20px;
+}
+.post{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    padding: 20px;
+    border-radius: 20px;
+    justify-content: center;
+    box-shadow: 3px 2px 7px gray;
+}
+.main{
+    display: flex;
+    justify-content: space-around;
+}
+.qoute1{
+    text-align: center;
+    width: 30vw;
+    color: grey;
+}
+.bar1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    font-size: large;
+}
+.overallpost{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    background-color: white;
+    padding: 70px;
+    max-height: 90vh;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+.rpimg{
+    height: 80px;
+    border-radius: 70em;
+}
+.rpimg3{
+    height: 80px;
+    width: 70px;
+    border-radius: 70em;
+}
+.rp{
+    font-weight: bold;
+    border-bottom: 1px solid black;
+}
+.li1{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    color: black;
+}
+.date{
+    color: grey;
+}
+.recent-post{
+    background-color: white;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    height: 50vh;
+    box-shadow: 3px 2px 7px;
+    border-radius: 10px;
+}
+.pr{
+    width: 17vw;
+}

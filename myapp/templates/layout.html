@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"  type="text/css" href="{% static 'css/main.css' %}">
+   <title>
+    {% block title %}
+    thedawnBlog
+    {% endblock  %}
+   </title>
+</head>
+<body>
+    <nav>
+        {% block nav %}{% endblock  %}
+    </nav>
+   <main class="main">
+    <section class="sidebar">
+        <button class = "home">Home</button>
+    </section>
+    <main class="overallpost">
+        <section class="post">
+            <img class="pimg" src={% static 'image/newblog.jpg' %} alt="Patience img">
+            <div class="bar1">
+                <p class="p1">Patience and perseverance in Islam</p>
+                <p class="admin">
+                    ABUBAKAR JAMALDEEN
+                </p>
+                <p class="qoute1">Sadness and worry are part of the human's ordeal. Life is a series of moments. At the two extremes are 
+                joyful moments that make our hearts sing with gladness and dark moments that plunge us into
+                 sadness and worry. In
+                 between is real life; the highs, the lows, the mundane and boring, the sweetness, and light. It is in 
+                 these times that the believer must try to establish a connection with God.
+                </p>
+                <button class="cr1">Continue Reading</button>
+            </div>
+        </section>
+        <section class="post">
+            <img class="pimg" src={% static 'image/halal.jpeg' %} alt="Patience img">
+            <div class="bar1">
+                <p class="p1">Does Allah Really Forbid What You Have Made Forbidden?</p>
+                <p class="admin">
+                    ABUBAKAR JAMALDEEN
+                </p>
+                <p class="qoute1">
+                    "And say not concerning that which your tongues put forth falsely: this
+                     is lawful, and this is forbidden, to invent lies against Allah. Verily, 
+                     those who invent lies against Allah will never prosper." (Qur'an 16:116)
+                </p>
+                <button class="cr1">Continue Reading</button>
+            </div>
+        </section>
+        <section class="post">
+            <img class="pimg" src={% static 'image/mind.jpeg' %} alt="Patience img">
+            <div class="bar1">
+                <p class="p1">PRACTISING MINDFULLNESS</p>
+                <p class="admin">
+                    ABUBAKAR JAMALDEEN
+                </p>
+                <p class="qoute1">
+                    Being present is an important aspect of worship, 
+                    immersing oneself in the full process of it.
+                     Preparing the body to take the full benefits
+                      of worship—in full. Taking the mind, body
+                     and soul alongside all acts of Ibaadaat.
+                </p>
+                <button class="cr1">Continue Reading</button>
+            </div>
+        </section>
+    </main>
+    <section class="recent-post">
+        <p class="rp">Recent Posts</p>
+        <div class="li1">
+            <img class="rpimg" src={%  static 'image/newblog.jpg' %} alt="">
+           <span>
+            <p class="date">Dec 11, 2023</p>
+            <p class="pr">Patience and perseverance in Islam</p>
+           </span>
+        </div>
+        <div class="li1">
+            <img class="rpimg" src={%  static 'image/halal.jpeg' %} alt="">
+           <span>
+            <p class="date">Dec 12, 2023</p>
+            <p class="pr">Does Allah Really Forbid What You Have Made Forbidden?</p>
+           </span>
+        </div>
+        <div class="li1">
+            <img class="rpimg3" src={%  static 'image/mind.jpeg' %} alt="">
+           <span>
+            <p class="date">Dec 19, 2023</p>
+            <p class="pr">PRACTISING MINDFULLNESS</p>
+           </span>
+        </div>
+    </section>
+   </main>
+</body>
+</html>
